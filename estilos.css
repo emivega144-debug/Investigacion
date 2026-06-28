@@ -1,0 +1,81 @@
+/* Reset básico para evitar problemas en móviles */
+* {
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor2 {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Texto introductorio */
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    line-height: 1.6;
+    background: #eef2f7;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Textareas */
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d0d7de;
+    border-radius: 8px;
+    font-size: 14px;
+    resize: vertical;
+    transition: 0.2s;
+}
+
+
+button{
+
+background-color: green;
+padding: 15px;
+color: white;
+border-radius: 5px;
+font-size: large;
+border: 0px;
+
+
+}
+
+button:hover{
+
+    background-color: greenyellow;
+
+}
+/* Efecto al escribir */
